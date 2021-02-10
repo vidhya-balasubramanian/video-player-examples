@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Home from './pages/Home';
-import VideoPlayer from './pages/VideoPlayer';
-import ShakaPlayer from './pages/ShakaPlayer';
+import Home from '../pages/Home';
+import VideoPlayer from '../pages/VideoPlayer';
+import ShakaPlayer from '../pages/ShakaPlayer';
 
 const AppRouter = () => {
   return (

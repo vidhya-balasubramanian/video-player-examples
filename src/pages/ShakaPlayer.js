@@ -8,10 +8,10 @@ const options = {
   height: 300,
   src: 'https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4',
 };
-
-export default () => {  
+const ShakaPlayerApp = () => {  
   return (
     <ShakaPlayer {...options} />
-  )
-  
+  )  
 }
+
+export default ShakaPlayerApp;

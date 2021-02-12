@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from '../pages/Home';
 import VideoPlayer from '../pages/video-player/VideoPlayer';
 import ShakaPlayer from '../pages/ShakaPlayer';
+import GraphqlExample from '../pages/graphql/GraphqlExample';
+
 
 const AppRouter = () => {
   return (
@@ -17,6 +19,9 @@ const AppRouter = () => {
         </Route>
         <Route path="/shaka-player">
           <ShakaPlayer />
+        </Route>
+        <Route path="/graphql">
+          <GraphqlExample />
         </Route>
       </Switch>
     </Router>

@@ -5,7 +5,7 @@ import Home from '../pages/Home';
 import VideoPlayer from '../pages/video-player/VideoPlayer';
 import ShakaPlayer from '../pages/ShakaPlayer';
 import GraphqlExample from '../pages/graphql/GraphqlExample';
-
+import JSExamples1 from '../pages/JSExamples1';
 
 const AppRouter = () => {
   return (
@@ -22,6 +22,9 @@ const AppRouter = () => {
         </Route>
         <Route path="/graphql">
           <GraphqlExample />
+        </Route>
+        <Route path="/js-examples">
+          <JSExamples1 />
         </Route>
       </Switch>
     </Router>
